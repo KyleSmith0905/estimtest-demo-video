@@ -1,0 +1,29 @@
+{
+  "name": "estimtest-demo-video",
+  "version": "1.0.0",
+  "description": "My Remotion video",
+  "scripts": {
+    "start": "remotion preview",
+    "build": "remotion render",
+    "upgrade": "remotion upgrade",
+    "test": "eslint src --ext ts,tsx,js,jsx && tsc"
+  },
+  "repository": {},
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@remotion/cli": "3.3.75",
+    "@remotion/google-fonts": "3.3.75",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "remotion": "3.3.75"
+  },
+  "devDependencies": {
+    "@remotion/eslint-config": "3.3.75",
+    "@types/react": "^18.0.26",
+    "@types/web": "^0.0.86",
+    "eslint": "^8.30.0",
+    "prettier": "^2.8.1",
+    "typescript": "^4.9.4"
+  },
+  "packageManager": "pnpm@7.29.0"
+}
