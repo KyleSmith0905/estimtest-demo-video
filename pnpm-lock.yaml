@@ -4,19 +4,21 @@ specifiers:
   '@remotion/cli': 3.3.75
   '@remotion/eslint-config': 3.3.75
   '@remotion/google-fonts': 3.3.75
-  '@types/react': ^18.0.26
+  '@types/react': ^18.0.28
   '@types/web': ^0.0.86
-  eslint: ^8.30.0
-  prettier: ^2.8.1
+  eslint: ^8.36.0
+  prettier: ^2.8.4
   react: ^18.2.0
+  react-balance-text: ^2.0.1
   react-dom: ^18.2.0
   remotion: 3.3.75
-  typescript: ^4.9.4
+  typescript: ^4.9.5
 
 dependencies:
   '@remotion/cli': 3.3.75_biqbaboplfbrettd7655fr4n2y
   '@remotion/google-fonts': 3.3.75_biqbaboplfbrettd7655fr4n2y
   react: 18.2.0
+  react-balance-text: 2.0.1_react@18.2.0
   react-dom: 18.2.0_react@18.2.0
   remotion: 3.3.75_biqbaboplfbrettd7655fr4n2y
 
@@ -555,8 +557,8 @@ packages:
   /@types/json-schema/7.0.11:
     resolution: {integrity: sha512-wOuvG1SN4Us4rez+tylwwwCV1psiNVOkJeM3AUWUNWg/jDQY2+HE/444y5gc+jBmRqASOm2Oeh5c1axHobwRKQ==}
 
-  /@types/node/18.15.1:
-    resolution: {integrity: sha512-U2TWca8AeHSmbpi314QBESRk7oPjSZjDsR+c+H4ECC1l+kFgpZf8Ydhv3SJpPy51VyZHHqxlb6mTTqYNNRVAIw==}
+  /@types/node/18.15.2:
+    resolution: {integrity: sha512-sDPHm2wfx2QhrMDK0pOt2J4KLJMAcerqWNvnED0itPRJWvI+bK+uNHzcH1dFsBlf7G3u8tqXmRF3wkvL9yUwMw==}
     dev: false
 
   /@types/prop-types/15.7.5:
@@ -583,7 +585,7 @@ packages:
     resolution: {integrity: sha512-Cn6WYCm0tXv8p6k+A8PvbDG763EDpBoTzHdA+Q/MF6H3sapGjCm9NzoaJncJS9tUKSuCoDs9XHxYYsQDgxR6kw==}
     requiresBuild: true
     dependencies:
-      '@types/node': 18.15.1
+      '@types/node': 18.15.2
     dev: false
     optional: true
 
@@ -917,6 +919,10 @@ packages:
     resolution: {integrity: sha512-DMD0KiN46eipeziST1LPP/STfDU0sufISXmjSgvVsoU2tqxctQeASejWcfNtxYKqETM1UxQ8sp2OrSBWpHY6sw==}
     engines: {node: '>= 0.4'}
     dev: true
+
+  /balance-text/3.3.1:
+    resolution: {integrity: sha512-tpnHvo1w0rJ5rbu+jZKf7NLKKg6XZ6eAwREP/9jEDJ+ZTBi6jQFqn/UGARL3/oqD8SgQbyTwBXBjhKDdTgoPRw==}
+    dev: false
 
   /balanced-match/1.0.2:
     resolution: {integrity: sha512-3oSeUO0TMV67hN1AmbXsK4yaqU7tjiHlbxRDZOpH0KW9+CeX4bRAaX0Anxt0tx2MrpRpWwQaPwIlISEJhYU5Pw==}
@@ -1859,7 +1865,7 @@ packages:
     resolution: {integrity: sha512-7vuh85V5cdDofPyxn58nrPjBktZo0u9x1g8WtjQol+jZDaE+fhN+cIvTj11GndBnMnyfrUOG1sZQxCdjKh+DKg==}
     engines: {node: '>= 10.13.0'}
     dependencies:
-      '@types/node': 18.15.1
+      '@types/node': 18.15.2
       merge-stream: 2.0.0
       supports-color: 8.1.1
     dev: false
@@ -2299,6 +2305,16 @@ packages:
     resolution: {integrity: sha512-vYl3iOX+4CKUWuxGi9Ukhie6fsqXqS9FE2Zaic4tNFD2N2QQaXOMFbuKK4QmDHC0JO6B1Zp41J0LpT0oR68amQ==}
     dependencies:
       safe-buffer: 5.2.1
+    dev: false
+
+  /react-balance-text/2.0.1_react@18.2.0:
+    resolution: {integrity: sha512-AyhX0GchhK6xcPEzvsLPAgbM8dcUA6xkrWEYJtyg3voDRYW/QLPlCFgHU3r3sdTaZu0UztsOdJa8BemScd8llQ==}
+    engines: {npm: ^3.0.0}
+    peerDependencies:
+      react: ^0.14.7 || ^15.0.0 || ^16.0.0-0
+    dependencies:
+      balance-text: 3.3.1
+      react: 18.2.0
     dev: false
 
   /react-dom/18.2.0_react@18.2.0:

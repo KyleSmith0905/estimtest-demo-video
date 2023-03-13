@@ -1,14 +1,14 @@
 import {Composition} from 'remotion';
-import {Overlay} from './Overlay';
+import {CompositionBody} from './components';
 
 export const RemotionRoot: React.FC = () => {
 	return (
 		<>
 			<Composition
-				id="Overlay"
-				component={Overlay}
-				durationInFrames={75}
-				fps={30}
+				id="estimtest-demo"
+				component={CompositionBody}
+				durationInFrames={1215}
+				fps={29.97}
 				width={1920}
 				height={1080}
 			/>

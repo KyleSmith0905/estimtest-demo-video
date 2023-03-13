@@ -1,3 +1,5 @@
+Please note, the video `public/estimtest.mkv` is too large to be committed.
+
 # Remotion video
 
 <p align="center">
